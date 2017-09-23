@@ -1,11 +1,10 @@
 {
-  "name": "comebacktitle",
+  "name": "es6sass_webpack",
   "version": "1.0.0",
-  "description": "Come back title",
+  "description": "Simple es6 and sass starter with webpack and express",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf dist/",
     "build": "webpack",
     "production": "webpack -p",
     "serve": "node ./server/server.js",
@@ -13,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easingthemes/comebacktitle.git"
+    "url": "git+https://github.com/easingthemes/es6sass_webpack.git"
   },
   "keywords": [
     "ES6",
     "webpack"
   ],
   "author": "Dragan Filipovic",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
